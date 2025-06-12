@@ -50,13 +50,15 @@ Este repositorio contiene la solución al challenge técnico de N5 Company, impl
 
 ### 🐳 Ejecutar TODO con Docker
 
+Desde la carpeta base donde se encuentra la solucion del proyecto backend, abrimos una consola para ejecutar el siguiente comando:
+
 ```bash
 docker compose up -d --build
 ```
 
 Esto levanta:
 - API .NET en `http://localhost:8080`
-- Frontend React en `http://localhost:5173`
+- Frontend React en `http://localhost:3000`
 - SQL Server, Kafka, Elasticsearch, Kibana (puertos configurados internamente)
 
 ---
