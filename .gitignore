@@ -1,0 +1,51 @@
+# Visual Studio + .NET
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.dbmdl
+*.bak
+*.log
+*.pdb
+*.obj
+*.cache
+*.dll
+*.exe
+*.vs/
+*.DS_Store
+*.swp
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+packages/
+bin/
+obj/
+TestResults/
+launchSettings.json
+appsettings.*.json
+
+# Logs
+logs/
+*.log
+
+# Docker
+**/docker-compose.override.yml
+**/Dockerfile.*
+**/Dockerfile
+
+# Node/React
+n5challenge-frontend/node_modules/
+n5challenge-frontend/.next/
+n5challenge-frontend/.env.local
+n5challenge-frontend/build/
+n5challenge-frontend/dist/
+n5challenge-frontend/yarn.lock
+
+# Others
+.env
+.env.*
+.idea/
+*.iml

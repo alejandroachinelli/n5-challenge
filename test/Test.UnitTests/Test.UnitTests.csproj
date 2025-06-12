@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="coverlet.collector" Version="6.0.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
+    <PackageReference Include="Moq" Version="4.20.72" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Application\N5Challenge.Application.DTO\N5Challenge.Application.DTO.csproj" />
+    <ProjectReference Include="..\..\src\Application\N5Challenge.Application.Interfaces\N5Challenge.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\..\src\Application\N5Challenge.Application.UseCases\N5Challenge.Application.UseCases.csproj" />
+    <ProjectReference Include="..\..\src\Infrastructure\N5Challenge.Infrastructure.Persistence\N5Challenge.Infrastructure.Persistence.csproj" />
+    <ProjectReference Include="..\..\src\Infrastructure\N5Challenge.Infrastructure.Services\N5Challenge.Infrastructure.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+</Project>
